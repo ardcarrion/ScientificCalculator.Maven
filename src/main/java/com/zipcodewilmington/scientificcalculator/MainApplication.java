@@ -30,7 +30,6 @@ public class MainApplication {
                     scientific = new ScientificCalculator();
                     break;
                 case "m" :
-                    //add shenanigans
                     printOptions(mode);
                     break;
                 case "sci":
@@ -88,7 +87,7 @@ public class MainApplication {
                 "| Add: + |  Subtract: - | Multiply: * | Divide: / | Square Root: sqrt | Square: sq | Exponent: exp | Inverse: inv | Negate: neg | Clear: clear\n" );
         if (mode.equals("sci")) {
             System.out.println("------Scientific Mode------ \n" + "Bonus Operations: \n " +
-                    "Sine: sin |  Cosine: cos | Tangent: tan | ArcSin: asin | ArcCos: acos | ArcTan: atan | \n" + " Log: log | Inverse Log: invog | Natual Log: ln | Inverse Natual: invln | Factorial: factorial | Clear: clear\n" );
+                    "Sine: sin |  Cosine: cos | Tangent: tan | ArcSin: asin | ArcCos: acos | ArcTan: atan | \n" + " Log: log | Inverse Log: invlog | Natual Log: ln | Inverse Natual: invln | Factorial: factorial | Clear: clear\n" );
             System.out.println("See different bases [base]");
 
         }
